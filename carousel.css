@@ -80,9 +80,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+@media (max-width: 800px) {
+  .masthead.password {
+    background-image: url("./assets/forlovelse\ 2.jpeg") !important;
+  }
+}
 .masthead.password {
   background-image: url("./assets/california2015.jpg");
-  /* background-image: url("./assets/bading.png"); */
 }
 
 .container.section {
